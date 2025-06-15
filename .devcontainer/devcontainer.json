@@ -1,6 +1,6 @@
 {
   "name": "K-K App Development",
-  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bullseye",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -12,7 +12,8 @@
         "christian-kohler.path-intellisense",
         "ms-vscode.vscode-json",
         "supabase.supabase-vscode",
-        "ms-vscode.vscode-eslint"
+        "ms-vscode.vscode-eslint",
+        "ms-playwright.playwright"
       ],
       "settings": {
         "editor.defaultFormatter": "biomejs.biome",
@@ -41,7 +42,7 @@
       "onAutoForward": "silent"
     }
   },
-  "postCreateCommand": "npm install",
+  "postCreateCommand": "npm install && npx playwright install --with-deps chromium",
   "remoteUser": "node",
   "features": {
     "ghcr.io/devcontainers/features/git:1": {},

@@ -14,12 +14,12 @@
 #### **Phase 0: Foundation Setup (Groundwork)**
 
 1.  **Environment Setup**
-    *   Create devcontainer settings 
-    *   Create a new Next.js project using `create-next-app` (TypeScript, Tailwind CSS, App Router).
-    *   Install and configure Biome for linting and formatting.
-    *   Install additional dependencies: UI library (shadcn/ui), date handling (date-fns), icons (lucide-react).
-    *   Set up project structure and folder organization.
-    *   Push the code to the GitHub repository.
+    *   ✅ Create devcontainer settings 
+    *   ✅ Create a new Next.js project using `create-next-app` (TypeScript, Tailwind CSS, App Router).
+    *   ✅ Install and configure Biome for linting and formatting.
+    *   ✅ Install additional dependencies: UI library (shadcn/ui), date handling (date-fns), icons (lucide-react).
+    *   ✅ Set up project structure and folder organization.
+    *   ✅ Push the code to the GitHub repository.
     *   Create accounts for Supabase and Vercel.
 2.  **Establish Deployment Cycle**
     *   Connect the Next.js project to Vercel to set up automatic deployment.
