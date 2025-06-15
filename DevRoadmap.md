@@ -20,7 +20,7 @@
     *   ✅ Install additional dependencies: UI library (shadcn/ui), date handling (date-fns), icons (lucide-react).
     *   ✅ Set up project structure and folder organization.
     *   ✅ Push the code to the GitHub repository.
-    *   Create accounts for Supabase and Vercel.
+    *   ✅ Create accounts for Supabase and Vercel.
 2.  **Establish Deployment Cycle**
     *   Connect the Next.js project to Vercel to set up automatic deployment.
     *   Confirm that pushing a small change automatically deploys it to the production environment.

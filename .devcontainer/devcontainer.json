@@ -42,12 +42,11 @@
       "onAutoForward": "silent"
     }
   },
-  "postCreateCommand": "npm install && npx playwright install --with-deps chromium",
+  "postCreateCommand": "npm install && npx playwright install --with-deps chromium && npm install -g vercel",
   "remoteUser": "node",
   "features": {
     "ghcr.io/devcontainers/features/git:1": {},
     "ghcr.io/devcontainers/features/github-cli:1": {},
     "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {}
-  },
-  "postStartCommand": "npm install -g supabase vercel"
+  }
 }
