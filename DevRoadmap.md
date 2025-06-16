@@ -25,15 +25,15 @@
     *   Connect the Next.js project to Vercel to set up automatic deployment.
     *   Confirm that pushing a small change automatically deploys it to the production environment.
 3.  **Implement Authentication**
-    *   Create a Supabase project and set the environment variables in the Next.js project.
-    *   Install Supabase client libraries (`@supabase/supabase-js`, `@supabase/ssr`).
-    *   Enable the Google Auth provider in Supabase Auth.
-    *   Set up Supabase client configuration and middleware for Next.js App Router.
-    *   Implement login/logout functionality in Next.js and verify it works.
+    *   ✅ Create a Supabase project and set the environment variables in the Next.js project.
+    *   ✅ Install Supabase client libraries (`@supabase/supabase-js`, `@supabase/ssr`).
+    *   ✅ Enable the Google Auth provider in Supabase Auth.
+    *   ✅ Set up Supabase client configuration and middleware for Next.js App Router.
+    *   ✅ Implement login/logout functionality in Next.js and verify it works.
 4.  **Verify DB Connection and CRUD**
-    *   Create a temporary `notes` table in Supabase for testing.
-    *   **Crucial:** Configure Row-Level Security (RLS) policies to ensure users can only manipulate their own data.
-    *   Using Server Actions, implement basic CRUD (Create, Read, Update, Delete) operations for the `notes` table and verify they work.
+    *   ✅ Create a temporary `notes` table in Supabase for testing.
+    *   ✅ **Crucial:** Configure Row-Level Security (RLS) policies to ensure users can only manipulate their own data.
+    *   ✅ Using Server Actions, implement basic CRUD (Create, Read, Update, Delete) operations for the `notes` table and verify they work.
 5.  **Restrict User Registration**
     *   Implement a Supabase DB function and trigger to block new user sign-ups from unauthorized email addresses.
     *   Set up environment variables for authorized email addresses.

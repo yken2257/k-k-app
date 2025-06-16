@@ -22,7 +22,15 @@ export default async function Home() {
             <p className="text-sm text-muted-foreground">
               ログイン中: {user.email}
             </p>
-            <LogoutButton />
+            <div className="flex gap-4 justify-center">
+              <a
+                href="/notes"
+                className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 py-2 text-sm font-medium text-primary-foreground ring-offset-background transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              >
+                Test Notes (CRUD)
+              </a>
+              <LogoutButton />
+            </div>
           </div>
         )}
       </div>
